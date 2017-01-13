@@ -10,9 +10,39 @@
   </head>
 
   <body>
-    
+
     <div class="container">
 
+      <div class="jumbotron">
+        <h1>Find out which Epicodus track is best for you!</h1>
+        <h2>Take the quiz to determine your future</h2>
+      </div>
+
+      <form id="blank-form">
+        <h3>1. Do you prefer front end or back end programming?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="front-back" value="front">
+            Front end! I love to come up with unique designs and I could style all night long.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="front-back" value="back">
+            Back end! I want to work with connecting the pages to the servers etc. I don't have a creative bone in my body.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="front-back" value="undecided">
+            I am not sure yet. I need more experience with both before making up my mind.
+          </label>
+        </div>
+
+
+        <button type="submit" class="btn btn-success">Find out now!</button>
+
+      </form>
     </div>
 
   </body>
