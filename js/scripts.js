@@ -24,7 +24,6 @@ var trackSelect = function (compPeople, design, smallLarge, appWeb, netAndroid) 
 
 
 
-
 $(document).ready(function(){
   $("form#blank-form").submit(function(event){
     event.preventDefault();
