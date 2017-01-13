@@ -27,6 +27,12 @@ form {
   display: none;
 }
 
+p#result {
+  margin-left: 140px;
+  margin-right: 140px;
+  font-style: italic;
+}
+
 button {
   margin: 20px 0px;
   background-color: #3caeb2;

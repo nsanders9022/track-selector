@@ -6,14 +6,14 @@ var trackSelect = function (compPeople, design, smallLarge, appWeb, netAndroid) 
       return "This field is right for you since you like to work with computers. However, it would be a good idea to spend more time on figuring out what path you want to go down.";
     } else if (compPeople === "people") {
       return "I suggest you look for a different career path since you don't like to work with computers."
+    } else if (design === "front"){
+      return "Design/CSS! This track is perfect for you since you want to work on the front end of web programming. Here you get to learn about planning out the aesthetics of a page and selecting the most user friendly and effective styles."
     } else if (compPeople === "computers" && smallLarge === "undecided" && appWeb === "undecided" && netAndroid === "undecided") {
       return "You want a back end track like C#, Java, PHP or Ruby. Do some more research to find out what kinds of companies or types of products you'd like to work on to help give you an opinion on the factors that differentiate the languges."
     } else if (smallLarge === "large" && appWeb === "undecided" && netAndroid === "undecided") {
-      return "You've narrowed down your options to C#, Java, and PHP. Now figure out if you want to work on apps or on web products."
+      return "You've narrowed down your options to C#, Java, and PHP because you want to work on the back end for a large company. Now figure out if you want to work on apps or on web products."
     } else if (appWeb === "app" && netAndroid === "undecided") {
-      return "You've now narrowed down your options to C# and Java. Spend some time learning whether you would prefer to work with .NET or Android."
-    } else if (design === "front"){
-      return "Design/CSS! This track is perfect for you since you want to work on the front end of web programming. Here you get to learn about planning out the aesthetics of a page and selecting the most user friendly and effective styles."
+      return "You've now narrowed down your options to C# and Java because you want to have the ability to work on apps for large companies. Spend some time learning whether you would prefer to work with .NET or Android."
     } else if (smallLarge === "small") {
       return "Ruby/Rails! Ruby's simplistic and naturalistic syntax makes this a fun language to learn and a popular language for startups and small companies to code it."
     } else if (appWeb === "web") {
