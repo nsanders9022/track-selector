@@ -1,13 +1,13 @@
 var trackSelect = function (compPeople, design, smallLarge, appWeb, netAndroid) {
   if (compPeople && design && smallLarge && appWeb && netAndroid ){
     if (compPeople === "both" && design === "undecided" && smallLarge === "undecided" && appWeb === "undecided" && netAndroid === "undecided") {
-      return "You should do some more research to learn more about this field and if it is a good fit for you";
+      return "You should do some more research to learn more about this field and if it is a good fit for you.";
     } else if (compPeople === "computers" && design === "undecided" && smallLarge === "undecided" && appWeb === "undecided" && netAndroid === "undecided") {
-      return "This field is right for you since you like to work with computers. However, it would be a good idea to spend more time on figuring out what path you want to go down";
+      return "This field is right for you since you like to work with computers. However, it would be a good idea to spend more time on figuring out what path you want to go down.";
     } else if (compPeople === "people") {
-      return "I suggest you look for a different career path since you don't like to work with computers"
+      return "I suggest you look for a different career path since you don't like to work with computers."
     } else if (design === "front"){
-      return "Design/CSS! This track is perfect for you since you want to work on the front end of web programming. Here you get to learn about planning out the aesthetics of a page and selecting the most user friendly and effective styles"
+      return "Design/CSS! This track is perfect for you since you want to work on the front end of web programming. Here you get to learn about planning out the aesthetics of a page and selecting the most user friendly and effective styles."
     } else if (smallLarge === "small") {
       return "Ruby/Rails! Ruby's simplistic and naturalistic syntax makes this a fun language to learn and a popular language for startups and small companies to code it."
     } else if (appWeb === "web") {
@@ -18,7 +18,7 @@ var trackSelect = function (compPeople, design, smallLarge, appWeb, netAndroid) 
       return "Java/Android! This track teaches you all about Android. This operating system can be used to create all the apps you can think of."
     }
   } else {
-    return "Please answer every question."
+    return "Please make sure you answer every question."
   }
 };
 
