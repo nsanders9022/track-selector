@@ -1,12 +1,12 @@
 # _Track Selector_
 
-#### _A questionnaire to determine which Epicodus track to take, January 6, 2017_
+#### _A questionnaire to determine which Epicodus track to take, January 13, 2017_
 
 #### By _**Nicole Sanders**_
 
 ## Description
 
-This website contains five questions that a user can answer in order to determine which track is the best fit for them.
+This website contains five questions that a user can answer in order to determine which language track is the best fit for them to take at the Epicodus web development bootcamp.
 
 ## Setup/Installation Requirements
 
@@ -27,4 +27,5 @@ This website contains five questions that a user can answer in order to determin
 ### License
 
 **This software is licensed under the MIT license**
+
 **Copyright (c) 2017 Nicole Sanders**
