@@ -13,7 +13,7 @@
 }
 
 .jumbotron h2 {
-  text-align: center;
+  text-align: right;
   color: #3caeb2;
 }
 
@@ -40,7 +40,7 @@ button {
 }
 
 img {
-  float: left;
+  padding: 20px 20px 20px 20px;
 }
 
 .image {
@@ -49,6 +49,7 @@ img {
 
 p {
   font-size: 24px;
+  font-family: Arial,sans-serif;
 }
 
 #refresh {
@@ -56,10 +57,6 @@ p {
   text-align: center;
   color: #4d5259;
 }
-/*
-#result[^([\w\-]+)] {
-  color: red;
-}*/
 
 @media screen and (max-width: 768px) {
   .jumbotron h1 {
