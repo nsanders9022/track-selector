@@ -33,6 +33,14 @@ button {
   color: white;
 }
 
+img {
+  float: left;
+}
+
+.image {
+  display: none;
+}
+
 p {
   font-size: 24px;
 }
