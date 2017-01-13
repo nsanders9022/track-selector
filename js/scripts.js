@@ -37,9 +37,12 @@ $(document).ready(function(){
     var phpAnswer = $("input:radio[name=products]:checked").val();
     var javaCSharpAnswer = $("input:radio[name=tool]:checked").val();
 
-    var cssImage = $("img#design");
+    var nameInput = $("#name").val();
+
+    // var cssImage = $("img#design");
 
     $("#result").text(trackSelect(computersAnswer, cssAnswer, rubyAnswer, phpAnswer, javaCSharpAnswer));
+    $("#nameHere").text(nameInput);
 
     $("form#blank-form").hide();
     $(".result").show()
