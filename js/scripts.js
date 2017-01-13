@@ -6,7 +6,7 @@ var trackSelect = function (compPeople, design, smallLarge, appWeb, netAndroid) 
     } else if (compPeople === "people") {
       return "I suggest you look for a different career path since you don't like to work with computers"
     } else if (design === "front"){
-      return "CSS..................."
+      return "CSS! This track"
     } else if (smallLarge === "small") {
       return "Ruby............."
     } else if (appWeb === "web") {
@@ -17,7 +17,7 @@ var trackSelect = function (compPeople, design, smallLarge, appWeb, netAndroid) 
       return "Java ........."
     }
   } else {
-    return "Please answer every question"
+    return "Please answer every question."
   }
 };
 

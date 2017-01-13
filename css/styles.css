@@ -3,11 +3,6 @@
   background-repeat: no-repeat;
 }
 
-.result {
-  border: 3px solid green;
-  display: none;
-}
-
 .jumbotron h1 {
   font-variant: small-caps;
   text-align: right;
@@ -21,17 +16,31 @@
   color: #3caeb2;
 }
 
+form {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.result {
+  border: 3px solid #3caeb2;
+  display: none;
+}
+
+
+
 button {
   margin: 20px 0px;
+  background-color: #3caeb2;
+  color: white;
 }
 
 p {
   font-size: 24px;
 }
-
+/*
 #result[^([\w\-]+)] {
   color: red;
-}
+}*/
 
 @media screen and (max-width: 768px) {
   .jumbotron h1 {
