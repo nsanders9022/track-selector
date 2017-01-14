@@ -14,7 +14,7 @@ var trackSelect = function (compPeople, design, smallLarge, appWeb, netAndroid) 
     } else if (design === "front"){
       imageIcon = "design"
       return "Design/CSS! This track is perfect for you since you want to work on the front end of web programming. Here you get to learn about planning out the aesthetics of a page and selecting the most user friendly and effective styles.";
-    } else if (compPeople === "computers" && smallLarge === "undecided" && appWeb === "undecided" && netAndroid === "undecided") {
+    } else if ((compPeople === "computers" || compPeople === "both") && smallLarge === "undecided" && appWeb === "undecided" && netAndroid === "undecided") {
       imageIcon = "research";
       return "You want a back end track like C#, Java, PHP or Ruby. Do some more research to find out what kinds of companies or types of products you'd like to work on to help give you an opinion on the factors that differentiate these languges.";
     } else if (smallLarge === "large" && appWeb === "undecided" && netAndroid === "undecided") {
